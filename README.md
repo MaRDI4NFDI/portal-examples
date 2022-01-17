@@ -12,3 +12,7 @@ Once the containers have been downloaded and started, run the Jupyter Notebook s
 The Jupyter Notebooks can be found at: `http://localhost:8889/lab`
 
 OpenRefine can be found at: `http://localhost:3333`
+
+What's included
+===============
+Jupyter [Scipy-Notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-scipy-notebook) with Pandas etc.

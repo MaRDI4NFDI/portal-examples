@@ -5,4 +5,5 @@ __pycache__
 .ipython
 .jupyter
 .local
+.bash_history
 dbextension

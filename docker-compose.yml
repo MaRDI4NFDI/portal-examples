@@ -2,12 +2,14 @@ version: '3.4'
 
 services:
   jupyter:
-    image: jupyter/minimal-notebook
+    image: jupyter/scipy-notebook
     restart: 'no'
     ports:
       - "8888:8888"
     volumes:
       - ".:/home/jovyan"
+    command:
+      "jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password=''"
 
   openrefine:
     image: ghcr.io/aot29/docker-openrefine:master
