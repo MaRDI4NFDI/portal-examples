@@ -1,0 +1,8 @@
+.spyproject
+*.pyc
+__pycache__
+.cache
+.ipython
+.jupyter
+.local
+dbextension
