@@ -7,3 +7,4 @@ __pycache__
 .local
 .bash_history
 dbextension
+.ipynb_checkpoints
