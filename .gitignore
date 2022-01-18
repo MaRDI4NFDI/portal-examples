@@ -8,3 +8,4 @@ __pycache__
 .bash_history
 dbextension
 .ipynb_checkpoints
+workspace.json
