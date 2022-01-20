@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-	<responseDate>2022-01-20T16:24:16Z</responseDate>
+	<responseDate>2022-01-20T16:45:24Z</responseDate>
 	<request metadataPrefix="oai_zb_preview" set="software:Gfan" verb="ListRecords">https://oai.zbmath.org/v1/helper/filter</request>
 	<ListRecords>
 		<record>
@@ -10903,6 +10903,6 @@ As application, the authors give examples illustrating their two guiding questio
 				</oai_zb_preview:zbmath>
 			</metadata>
 		</record>
-		<resumptionToken completeListSize="119" cursor="100" expirationDate="2022-01-21T16:24:16Z">38cb3a0a-4ba2-40f7-9e9b-9881e290b5a3</resumptionToken>
+		<resumptionToken completeListSize="119" cursor="100" expirationDate="2022-01-21T16:45:25Z">dd2efb78-f656-485c-8d82-8ca422409156</resumptionToken>
 	</ListRecords>
 </OAI-PMH>
