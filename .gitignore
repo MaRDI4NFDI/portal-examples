@@ -9,3 +9,5 @@ __pycache__
 dbextension
 .ipynb_checkpoints
 workspace.json
+workspace.old.json
+*.project
