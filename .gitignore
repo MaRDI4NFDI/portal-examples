@@ -11,3 +11,4 @@ dbextension
 workspace.json
 workspace.old.json
 *.project
+*.log
