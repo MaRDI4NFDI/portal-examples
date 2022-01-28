@@ -12,3 +12,4 @@ workspace.json
 workspace.old.json
 *.project
 *.log
+credentials.ini

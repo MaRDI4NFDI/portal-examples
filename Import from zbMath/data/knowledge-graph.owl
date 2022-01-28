@@ -103,12 +103,22 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/RBDhqnHUvC1BnRdv17kHQ2x -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBDhqnHUvC1BnRdv17kHQ2x">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCOsbz5HUdLRqUtb2cagdtZ"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R4kt65Cvv554Cm6Ly23NEq"/>
+        <rdfs:label>zbMATH work ID (P894)</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://webprotege.stanford.edu/RBN1Zd8E7IoM0OECNvEWUat -->
 
     <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBN1Zd8E7IoM0OECNvEWUat">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBhks2IDvQOQP7ekHTqRMXH"/>
-        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCOsbz5HUdLRqUtb2cagdtZ"/>
         <rdfs:range rdf:resource="http://webprotege.stanford.edu/R4kt65Cvv554Cm6Ly23NEq"/>
         <rdfs:label>swMATH work ID (P6830)</rdfs:label>
     </owl:DatatypeProperty>

@@ -23,3 +23,8 @@ services:
       - REFINE_PORT=3333
       - REFINE_MEMORY=1024M
       - REFINE_DATA_DIR=/data
+
+networks:
+  default:
+    external: true
+    name: portal-compose_default
