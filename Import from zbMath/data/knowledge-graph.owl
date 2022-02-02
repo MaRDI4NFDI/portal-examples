@@ -48,13 +48,13 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/R8gaAmJiXKpTjQuQkalRZVS -->
+    <!-- http://webprotege.stanford.edu/R9ZEN4m5xec5Z4aqoePYVlv -->
 
-    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8gaAmJiXKpTjQuQkalRZVS">
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9ZEN4m5xec5Z4aqoePYVlv">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCOsbz5HUdLRqUtb2cagdtZ"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RBwQFMedrmUbiPl4ZMkLQOK"/>
-        <rdfs:label>published in (P1433)</rdfs:label>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDjkThAocAtpFAx7Tc97GB2"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RBNWC3sPv82LwGw8oshVmzJ"/>
+        <rdfs:label>publisher (P123)</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -66,6 +66,17 @@
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCOsbz5HUdLRqUtb2cagdtZ"/>
         <rdfs:range rdf:resource="http://webprotege.stanford.edu/RBhks2IDvQOQP7ekHTqRMXH"/>
         <rdfs:label>describes a project that uses (P4510)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLdCsSqhQqHiVmjjM5Pdo0 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RLdCsSqhQqHiVmjjM5Pdo0">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCOsbz5HUdLRqUtb2cagdtZ"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RDjkThAocAtpFAx7Tc97GB2"/>
+        <rdfs:label>published in (P1433)</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -177,6 +188,15 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/RBNWC3sPv82LwGw8oshVmzJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBNWC3sPv82LwGw8oshVmzJ">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>publisher (Q2085381)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/RBhks2IDvQOQP7ekHTqRMXH -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RBhks2IDvQOQP7ekHTqRMXH">
@@ -185,18 +205,18 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/RBwQFMedrmUbiPl4ZMkLQOK -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RBwQFMedrmUbiPl4ZMkLQOK">
-        <rdfs:label>scientific journal (Q5633421)</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://webprotege.stanford.edu/RCOsbz5HUdLRqUtb2cagdtZ -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RCOsbz5HUdLRqUtb2cagdtZ">
         <rdfs:label>scholarly article (Q13442814)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDjkThAocAtpFAx7Tc97GB2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDjkThAocAtpFAx7Tc97GB2">
+        <rdfs:label>scientific publication (Q591041)</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
