@@ -59,6 +59,17 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/R9kSmEfBDNnsddUAJHstazJ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9kSmEfBDNnsddUAJHstazJ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCOsbz5HUdLRqUtb2cagdtZ"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RDYRXIswOmZ5ErVv33bkYOt"/>
+        <rdfs:label>main subject (P921)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://webprotege.stanford.edu/RC30wmPHxPHennDTtY4IyW6 -->
 
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RC30wmPHxPHennDTtY4IyW6">
@@ -209,6 +220,14 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RCOsbz5HUdLRqUtb2cagdtZ">
         <rdfs:label>scholarly article (Q13442814)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDYRXIswOmZ5ErVv33bkYOt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDYRXIswOmZ5ErVv33bkYOt">
+        <rdfs:label>index term (Q1128340)</rdfs:label>
     </owl:Class>
     
 
